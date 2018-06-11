@@ -24,11 +24,11 @@ table name: todos
 | GET    | /todos/id | 200  | 获取指定任务 |
 | POST   | /todos/   | 201  | 提交新的任务 |
 | PATCH  | /todos/id | 200  | 更新执行任务 |
-| DELETE | /todos/id | 200  | 删除指定任务 |
+| DELETE | /todos/id | 204  | 删除指定任务 |
 
 # The Next?
-
 * User authentication
+* Multilingual support
 * Sphinx API doc
 * More database support, such as MySQL, ProgreSQL, MongoDB
 * Database migration module
